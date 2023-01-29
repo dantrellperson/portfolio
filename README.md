@@ -5,8 +5,15 @@ Building my responsive personal portfolio website using HTML CSS And JavaScript 
 Additional resources used:
 iconscout.com/unicons
 
-Fonts used:
-Google Fonts : POPPINS (Regular 400, Medium 500, SemiBold 600)
+- Assets
+  Icons: https://remixicon.com/
+  Fonts: https://fonts.google.com/
+  Svg for skills: https://worldvectorlogo.com/
+  JS Functions: https://github.com/bedimcode/responsi...
+  Swiper: https://swiperjs.com/
+  EmailJs: https://www.emailjs.com/
+  ScrollReveal: https://scrollrevealjs.org/
+  Netlify: https://www.netlify.com/
 
 - My CSS style sheet is separated into sections corresponding to the part of the website that respective section affects.
 
