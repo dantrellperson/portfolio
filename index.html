@@ -2,125 +2,199 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--------------------------------------- UNICONS ------------------------------------------------------->
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
+
+    <!--=============== REMIXICONS ===============-->
     <link
-      rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
-    <!--------------------------------------- SWIPER CSS ---------------------------------------------------->
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet" />
+
+    <!--=============== SWIPER CSS ===============-->
     <link rel="stylesheet" href="" />
 
-    <!---------------------------------------  CSS ---------------------------------------------------------->
+    <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles.css" />
 
-    <title>Dantrell's Portfolio Website</title>
+    <title>Dantrell portfolio website</title>
   </head>
   <body>
-    <!--------------------------------------- HEADER -------------------------------------------------------->
+    <!-- ======================== HEADER =========================-->
     <header class="header" id="header">
       <nav class="nav container">
-        <a href="" class="nav__logo">Dantrell</a>
+        <a href="#" class="nav__logo"> Dantrell </a>
 
         <div class="nav__menu" id="nav-menu">
-          <u1 class="nav__list grid">
+          <ul class="nav__list grid">
             <li class="nav__item">
-              <a href="#home" class="nav__link"
-                ><i class="uil uil-estate nav__icon"></i> Home
+              <a href="#home" class="nav__link">
+                <i class="ri-home-heart-fill"></i>Home
               </a>
             </li>
+
             <li class="nav__item">
-              <a href="#about" class="nav__link"
-                ><i class="uil uil-user nav__icon"></i>About
+              <a href="#skills" class="nav__link">
+                <i class="ri-trophy-line"></i> Skills
               </a>
             </li>
+
             <li class="nav__item">
-              <a href="#skills" class="nav__link"
-                ><i class="uil uil-file-alt nav__icon"></i>Skills
+              <a href="#qualifications" class="nav__link">
+                <i class="ri-book-open-line"></i> Qualifications
               </a>
             </li>
+
             <li class="nav__item">
               <a href="#services" class="nav__link">
-                <i class="uil uil-briefcase-alt nav__icon"></i>Services
+                <i class="ri-briefcase-line"></i> Services
               </a>
             </li>
+
             <li class="nav__item">
-              <a href="#portfolio" class="nav__link"
-                ><i class="uil uil-scenery nav__icon"></i>Portfolio
+              <a href="#projects" class="nav__link">
+                <i class="ri-image-line"></i> Projects
               </a>
             </li>
+
             <li class="nav__item">
-              <a href="#contact" class="nav__link"
-                ><i class="uil uil-message nav__icon"></i>Contactme
+              <a href="#contact" class="nav__link">
+                <i class="ri-chat-heart-line"></i> Contact
               </a>
             </li>
-          </u1>
-          <i class="uil uil-times nav__close" id="nav-close"></i>
+          </ul>
+
+          <!-- Close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-circle-line"></i>
+          </div>
         </div>
 
-        <div class="nav__btns">
+        <div class="nav__buttons">
+          <!-- Theme change button -->
+          <!-- <i class="ri-moon-line change-theme" id="theme-button"></i> -->
+
+          <!-- Toggle button -->
           <div class="nav__toggle" id="nav-toggle">
-            <i class="uil uil-apps"></i>
+            <i class="ri-menu-4-line"></i>
           </div>
         </div>
       </nav>
     </header>
-    <!--------------------------------------- MAIN  --------------------------------------------------------->
+
+    <!--==================== MAIN ====================-->
     <main class="main">
-      <!-- ======================================== HOME =============================================== -->
+      <!--==================== HOME ====================-->
       <section class="home section" id="home">
-        <div class="home__container container grid">
-          <div class="home__content grid">
-            <div class="home__social">
+        <div class="home__contrainer container grid section__border">
+          <div class="home__data grid">
+            <h1 class="home__title">
+              You're now in Trell's Space <br />
+              I'm a Data Scientist <br />
+              Based in Atlanta <br />
+            </h1>
+
+            <div class="home__blob grid">
+              <div class="home__profile">
+                <img src="assets/img/Headshot.jpeg" alt="home profile" />
+              </div>
+
+              <!-- <img src="assets/img/shape-waves.svg" alt="" class="home__shape-waves" /> -->
+              <!-- <img src="assets/img/shape-circle.svg" alt="" class="home__shape-circle" /> -->
+            </div>
+            <ul>
               <a
                 href="https://www.linkedin.com/in/dantrell-person/"
                 target="_blank"
-                class="home__social-icon">
-                <i class="uil uil-linkedin-alt"></i>
-              </a>
-
-              <a
-                href="https://www.kingdomhearts.com/home/us/"
-                target="_blank"
-                class="home__social-icon">
-                <i class="uil uil-key-skeleton"></i>
+                class="home__social-link">
+                <i class="ri-linkedin-fill"></i>
               </a>
 
               <a
                 href="https://github.com/dantrellperson"
                 target="_blank"
-                class="home__social-icon">
-                <i class="uil uil-github-alt"></i>
+                class="home__social-link">
+                <i class="ri-github-fill"></i>
               </a>
+
+              <a
+                href="https://www.kingdomhearts.com/home/us/"
+                target="_blank"
+                class="home__social-link">
+                <i class="ri-key-2-line"></i>
+              </a>
+            </ul>
+          </div>
+
+          <!--==================== HOME ====================-->
+          <div class="home__info">
+            <div>
+              <h3 class="home__info-title">BIOGRAPHY</h3>
+
+              <p class="home__info-description">
+                Hi, I'm Dantrell, Data Scientist. I am passionate about discovering
+                helpful insights in data. Based in Atlanta
+              </p>
             </div>
 
-            <div class="home__img">
-              <svg class="home__blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-              
-                <path
-                  fill="#FABCD2"
-                  d="M26.7,-43.1C33.6,-37,37.7,-28,42.4,-19C47.1,-9.9,52.5,-0.8,53.7,9.4C54.9,19.7,51.9,31,46.9,45.4C41.8,59.7,34.8,77,22.1,85.4C9.4,93.9,-9,93.4,-25.1,87.7C-41.3,82,-55.3,71,-66.9,57.8C-78.5,44.6,-87.7,29.3,-91,12.5C-94.3,-4.3,-91.7,-22.5,-83.7,-37.4C-75.6,-52.4,-62.1,-64.1,-47.3,-66.6C-32.4,-69.1,-16.2,-62.4,-3.2,-57.4C9.9,-52.5,19.7,-49.2,26.7,-43.1Z"
-                  transform="translate(100 100)"/>
-                  <img class="home__blob-img" src="assets/img/Headshot.jpeg" >
-              </svg>
+            <div>
+              <h3 class="home__info-title">CONTACT</h3>
+              <p class="home__info-description">
+                Atlanta, GA <br />
+                dantrellperson2@gmail.com <br />
+                404-735-2793 <br />
+              </p>
+            </div>
+
+            <div>
+              <h3 class="home__info-title">SERVICES</h3>
+
+              <p class="home__info-description">
+                Data Analysis. <br />
+                Data Visualization. <br />
+                Quantitative Analysis. <br />
+                Machine Learning. <br />
+                Modelling. <br />
+              </p>
             </div>
           </div>
         </div>
       </section>
-      <!-- ======================================== ABOUT ============================================== -->
-      <!-- ======================================== SKILLS ============================================= -->
-      <!-- ===================================== QUALIFICATION ========================================= -->
-      <!-- ======================================== SERVICES =========================================== -->
-      <!-- ======================================== PORTFOLIO =========================================== -->
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills"></section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section" id="qualification"></section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="services"></section>
+
+      <!--==================== PROJECTS ====================-->
+      <section class="projects section" id="projects"></section>
+
+      <!--==================== TESTIMONIAL ====================-->
+      <section class="testimonial section"></section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact"></section>
     </main>
-    <!--------------------------------------- FOOTER -------------------------------------------------------->
 
-    <!--------------------------------------- SCROLL TOP ---------------------------------------------------->
+    <!--==================== FOOTER ====================-->
+    <footer class="footer"></footer>
 
-    <!--------------------------------------- SWIPER JS ----------------------------------------------------->
+    <!--========== SCROLL UP ==========-->
+
+    <!--=============== SCROLLREVEAL ===============-->
     <script src=""></script>
 
-    <!--------------------------------------- MAIN JS ------------------------------------------------------->
+    <!--=============== SWIPER JS ===============-->
+    <script src=""></script>
+
+    <!--=============== EMAIL JS ===============-->
+
+    <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>
   </body>
 </html>
