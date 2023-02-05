@@ -3,7 +3,6 @@
 Building my responsive personal portfolio website using HTML CSS And JavaScript | Dark/Light Mode
 
 Additional resources used:
-iconscout.com/unicons
 
 - Assets
   Icons: https://remixicon.com/
@@ -18,3 +17,11 @@ iconscout.com/unicons
 - My CSS style sheet is separated into sections corresponding to the part of the website that respective section affects.
 
 - My main Javascript file controls the showing and hiding of my menu
+
+* First section
+
+Personal informationation, my title, contact information, and years of experience
+
+- Second Section
+
+Logos for skills I posses, and my current skill level. I have separated Data Science and Frontend Development into two sections
