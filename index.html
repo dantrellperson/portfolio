@@ -13,12 +13,12 @@
       rel="stylesheet" />
 
     <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles.css" />
 
-    <title>Dantrell portfolio website</title>
+    <title>Dantrell's portfolio website</title>
   </head>
   <body>
     <!-- ======================== HEADER =========================-->
@@ -90,7 +90,7 @@
         <div class="home__contrainer container grid section__border">
           <div class="home__data grid">
             <h1 class="home__title">
-              You're now in Trell's Space <br />
+              Trell's Space <br />
               I'm a Data Scientist <br />
               Based in Atlanta <br />
             </h1>
@@ -418,66 +418,193 @@
         <span class="section__subtitle">Most recent work</span>
 
         <div class="container section__border">
-          <div class="projects__container">
-            <div>
+          <div class="projects__container swiper">
+            <div class="swiper-wrapper">
               <!--==================== PROJECT 1 ====================-->
-              <div class="projects__content">
+              <div class="projects__content swiper-slide">
                 <img
                   src="assets/img/project1.png"
                   alt="projects image"
                   class="projects__img" />
 
                 <div>
-                  <span class="projects__subtitle"></span>
-                  <h1 class="projects__title"></h1>
+                  <span class="projects__subtitle">Supervised Learning</span>
+                  <h1 class="projects__title">Predicting-Who-Is-Diabetic</h1>
 
-                  <a href="" class="projects__button">
+                  <a
+                    href="https://github.com/dantrellperson/Predicting-Who-Is-Diabetic"
+                    class="projects__button">
                     view here <i class="ri-arrow-right-line"></i>
                   </a>
                 </div>
               </div>
-              <!--==================== PROJECT 1 ====================-->
-              <div class="projects__content">
+
+              <!--==================== PROJECT 2 ====================-->
+              <div class="projects__content swiper-slide">
                 <img
-                  src="assets/img/project1.png"
+                  src="assets/img/Ecommerce-sales.png"
                   alt="projects image"
                   class="projects__img" />
 
                 <div>
-                  <span class="projects__subtitle"></span>
-                  <h1 class="projects__title"></h1>
+                  <span class="projects__subtitle"
+                    >Quantitative Analysis using Python</span
+                  >
+                  <h1 class="projects__title">E-commerce-Sales-Analysis</h1>
 
-                  <a href="" class="projects__button">
+                  <a
+                    href="https://github.com/dantrellperson/Ecommerce-Sales-Analysis"
+                    class="projects__button">
                     view here <i class="ri-arrow-right-line"></i>
                   </a>
                 </div>
               </div>
-              <!--==================== PROJECT 1 ====================-->
-              <div class="projects__content">
+              <!--==================== PROJECT 3 ====================-->
+              <div class="projects__content swiper-slide">
                 <img
-                  src="assets/img/project1.png"
+                  src="assets/img/Crystallum-credit.png"
                   alt="projects image"
                   class="projects__img" />
 
                 <div>
-                  <span class="projects__subtitle"></span>
-                  <h1 class="projects__title"></h1>
+                  <span class="projects__subtitle"
+                    >Improving Credit Lending using Machine Learning</span
+                  >
+                  <h1 class="projects__title">Crystallum-Credit-Company</h1>
 
-                  <a href="" class="projects__button">
+                  <a
+                    href="https://github.com/Hudaalghazouli/Crystallum-Credit-Company"
+                    class="projects__button">
                     view here <i class="ri-arrow-right-line"></i>
                   </a>
                 </div>
               </div>
             </div>
+
+            <!-- Swiper arrows -->
+            <div class="swiper-button-next">
+              <i class="ri-arrow-right-circle-line"></i>
+            </div>
+
+            <div class="swiper-button-prev">
+              <i class="ri-arrow-left-circle-line"></i>
+            </div>
+
+            <!-- Swiper pagniation -->
+            <div class="swiper-pagination"></div>
           </div>
         </div>
       </section>
 
       <!--==================== TESTIMONIAL ====================-->
-      <section class="testimonial section"></section>
+      <section class="testimonial section">
+        <h2 class="section__title">Recommendations</h2>
+        <span class="section__subtitle">What my Coworkers have to say about me</span>
+
+        <div class="container section__border">
+          <div class="testimonial__container swiper">
+            <div class="swiper-wrapper">
+              <!--==================== TESTIMONIAL 1 ====================-->
+              <div class="testimonial__content swiper-slide">
+                <p class="testimonial__description">
+                  "I had the pleasure of supporting Dantrell throughout his experience
+                  during the Data Analytics and Visualization Certificate. Dantrell and I
+                  worked together through various projects and one of the things I truly
+                  admire about Dantrell is his hard work ethic. He is always willing to
+                  learn more and immediately implement what he learns. On top that,
+                  Dantrell is a strategic thinker who is extremely process oriented. When
+                  faced with various problems, Dantrell was never let down by that, but
+                  took it as a time to improve the work he had and find better solutions.
+                  I am grateful to have met him throughout this experience."
+                </p>
+
+                <div>
+                  <h3 class="testimonial__name">Alysia Won</h3>
+                  <span class="testimonial__subtitle">Mentor</span>
+                </div>
+              </div>
+              <!--==================== TESTIMONIAL 2 ====================-->
+              <div class="testimonial__content swiper-slide">
+                <p class="testimonial__description">
+                  "I have had the pleasure of working with many professionals in our line
+                  of work, but Dantrell is someone who I have always admired. What I
+                  admire most is his work ethic and strong determination. Dantrell never
+                  takes a shortcut or the "easy route" and instead utilizes his excellent
+                  analytical skills to find the most efficient and/or effective solutions
+                  with what we have available. He's always willing to lend a hand to
+                  anyone who needs it and has a knack for keeping everyone calm and
+                  productive during intense crunch periods. I am very grateful to have had
+                  the opportunity to work with such an amazing individual."
+                </p>
+
+                <div>
+                  <h3 class="testimonial__name">Marcus Farr</h3>
+                  <span class="testimonial__subtitle">Teammate</span>
+                </div>
+              </div>
+              <!--==================== TESTIMONIAL 3 ====================-->
+              <div class="testimonial__content swiper-slide">
+                <p class="testimonial__description">
+                  "Dantrell is someone I've had the pleasure of working with in our line
+                  of work. I really enjoyed working with him because he is a team player
+                  and always willing to lend a helping hand to any of his team members.
+                  Dantrell and I worked together on the same team at OTR. He showed
+                  excellent analytical skills, and had a knack for keeping everyone calm
+                  and productive during intense crunch periods. He's always willing to
+                  lend a hand to anyone who needs it."
+                </p>
+
+                <div>
+                  <h3 class="testimonial__name">Imani Huffman</h3>
+                  <span class="testimonial__subtitle">Teammate</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Swiper Arrows -->
+            <div class="swiper-button-next">
+              <i class="ri-arrow-right-circle-line"></i>
+            </div>
+
+            <div class="swiper-button-prev">
+              <i class="ri-arrow-left-circle-line"></i>
+            </div>
+          </div>
+        </div>
+
+        <img
+          src="assets/img/shape-waves.svg"
+          alt="testimonial image"
+          class="testimonial__img" />
+      </section>
 
       <!--==================== CONTACT ====================-->
-      <section class="contact section" id="contact"></section>
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in touch</span>
+
+        <div class="contact__container container grid section__border">
+          <div class="contact__content">
+            <h3 class="contact__title"><i class="ri-chat-new-line"></i> Reach me</h3>
+
+            <div class="contact__info">
+              <div class="contact__data">
+                <span class="contact__data-title">Email</span>
+                <span class="contact__data-info">dantrellperson2@gmail.com</span>
+              </div>
+
+              <div class="contact__data">
+                <span class="contact__data-title">Phone</span>
+                <span class="contact__data-info">404-735-2793</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact__content">
+            <h3 class="contact__title"></h3>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!--==================== FOOTER ====================-->
@@ -489,7 +616,7 @@
     <script src=""></script>
 
     <!--=============== SWIPER JS ===============-->
-    <script src=""></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!--=============== EMAIL JS ===============-->
 
