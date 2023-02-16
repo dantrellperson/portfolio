@@ -16,7 +16,7 @@ Additional resources used:
 
 - My CSS style sheet is separated into sections corresponding to the part of the website that respective section affects.
 
-- My main Javascript file controls the showing and hiding of my menu
+- My main Javascript file controls the showing and hiding of my menu, scrolling, and the dark light theme
 
 * First section
 
@@ -25,3 +25,19 @@ Personal informationation, my title, contact information, and years of experienc
 - Second Section
 
 Logos for skills I posses, and my current skill level. I have separated Data Science and Frontend Development into two sections
+
+- Third Section
+
+Services I offer
+
+- Fourth Section
+
+My projects
+
+- Fifth Section
+
+Recommendations that I have been given
+
+- Last Section
+
+My Contact info
