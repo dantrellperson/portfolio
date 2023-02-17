@@ -4,40 +4,41 @@ Building my responsive personal portfolio website using HTML CSS And JavaScript 
 
 Additional resources used:
 
-- Assets
-  Icons: https://remixicon.com/
-  Fonts: https://fonts.google.com/
-  Svg for skills: https://worldvectorlogo.com/
-  JS Functions: https://github.com/bedimcode/responsi...
-  Swiper: https://swiperjs.com/
-  EmailJs: https://www.emailjs.com/
-  ScrollReveal: https://scrollrevealjs.org/
-  Netlify: https://www.netlify.com/
+## Assets
 
-- My CSS style sheet is separated into sections corresponding to the part of the website that respective section affects.
+- Icons: https://remixicon.com/
+- Fonts: https://fonts.google.com/
+- Svg for skills: https://worldvectorlogo.com/
+- JS Functions: https://github.com/bedimcode/responsi...
+- Swiper: https://swiperjs.com/
+- EmailJs: https://www.emailjs.com/
+- ScrollReveal: https://scrollrevealjs.org/
+- Netlify: https://www.netlify.com/
 
-- My main Javascript file controls the showing and hiding of my menu, scrolling, and the dark light theme
+My CSS style sheet is separated into sections corresponding to the part of the website that respective section affects.
 
-* First section
+My main Javascript file controls the showing and hiding of my menu, scrolling, and the dark light theme
+
+## First section
 
 Personal informationation, my title, contact information, and years of experience
 
-- Second Section
+## Second Section
 
-Logos for skills I posses, and my current skill level. I have separated Data Science and Frontend Development into two sections
+- Logos for skills I posses, and my current skill level. I have separated Data Science and Frontend Development into two sections
 
-- Third Section
+## Third Section
 
-Services I offer
+- Services I offer
 
-- Fourth Section
+## Fourth Section
 
-My projects
+- My projects
 
-- Fifth Section
+## Fifth Section
 
-Recommendations that I have been given
+- Recommendations that I have been given
 
-- Last Section
+## Last Section
 
-My Contact info
+- My Contact info
